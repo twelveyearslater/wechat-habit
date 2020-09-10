@@ -1,0 +1,43 @@
+{
+  "entryPagePath": "pages/tasks/tasks",
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/tasks/tasks",
+    "pages/add/add"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00FF7F",
+    "navigationBarTitleText": "大咖基金",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "color": "#000000",
+    "selectedColor": "#2F4F4F",
+    "position": "bottom",
+    "list": [
+      {
+        "text": "打卡",
+        "pagePath": "pages/tasks/tasks",
+        "iconPath": "pages/images/tab_task_3.png",
+        "selectedIconPath": "pages/images/tab_task_5.png"
+      },
+      {
+        "text": "添加",
+        "pagePath": "pages/add/add",
+        "iconPath": "pages/images/tab_add_3.png",
+        "selectedIconPath": "pages/images/tab_add_4.png"
+      },
+      {
+        "text": "设置",
+        "pagePath": "pages/logs/logs",
+        "iconPath": "pages/images/tab_set_1.png",
+        "selectedIconPath": "pages/images/tab_set_2.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,22 @@
+<!--pages/tasks/tasks.wxml-->
+
+<view class="title">
+  <text>今日打卡</text>
+</view>
+<view class="task-list">
+  <view class="task">
+    <view class="btn btn-1">补卡</view>
+    <text class="text-content">早起打卡: 6:00-7:00 </text>
+    <view class="btn btn-2">打卡</view>
+  </view>
+  <view class="task">
+    <view class="btn btn-1">补卡</view>
+    <text class="text-content">读书打卡: 1h+ </text>
+    <view class="btn btn-2">打卡</view>
+  </view>
+  <view class="task">
+    <view class="btn btn-1">补卡</view>
+    <text class="text-content">运动打卡: 1h+ </text>
+    <view class="btn btn-2">打卡</view>
+  </view>
+</view>
