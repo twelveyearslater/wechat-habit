@@ -10,7 +10,8 @@
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#00FF7F",
     "navigationBarTitleText": "大咖基金",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#fff"
   },
   "tabBar": {
     "backgroundColor": "#fff",

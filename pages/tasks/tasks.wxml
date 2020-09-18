@@ -1,13 +1,21 @@
 <!--pages/tasks/tasks.wxml-->
-
-<view class="title">
-  <text>今日打卡</text>
+<view>
+  <text>查询</text>
 </view>
 <view class="task-list">
+  <view class="task empty">
+    
+  </view>
   <view class="task">
-    <view class="btn btn-1">补卡</view>
-    <text class="text-content">早起打卡: 6:00-7:00 </text>
-    <view class="btn btn-2">打卡</view>
+    <view class="task-header">
+      <view class="pic"></view>
+      <text class="text">早起打卡: 6:00-7:00 </text>
+    </view>
+    <view class="task-body">
+      <view class="time"><text class="text">任务时间：{{ taskTime }}</text></view>
+      <view class="word"><text class="text">春天来了,我要把心灵放回萦绕柔肠的远方。</text></view>
+    </view>
+    <view task-footer><view class="btn btn-1">补卡</view><view class="btn btn-2">打卡</view></view>
   </view>
   <view class="task">
     <view class="btn btn-1">补卡</view>

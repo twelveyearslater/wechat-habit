@@ -1,16 +1,32 @@
 /* pages/tasks/tasks.wxss */
-.title {
-  height: 100rpx;
-  text-align: center;
-  margin-top: 40rpx;
-  font-size: 20px;
-  color: brown;
-  font-weight: 900;
+.task-list {
+  background-color: #e2dfdf;
 }
 .task {
-  height: 120rpx;
+  height: 300rpx;
   border: chartreuse;
-  border-style: groove; 
+  border-radius: 20rpx;
+  background-color: #fff;
+  margin: 12rpx 16rpx 0rpx 16rpx;
+}
+.empty {
+  height: 1rpx;
+  border-style: none; 
+  background-color: #e2dfdf;
+}
+.task-header {
+  background-color: #000;
+  height: 40rpx;
+  border-top-left-radius: 18rpx;
+  border-top-right-radius: 18rpx;
+  padding: 0rpx 20rpx 16rpx 20rpx;
+}
+.task-header pic {
+  background:   url(../images/time.png) no-repeat 5px 5px;
+}
+.task-header text {
+  font-size: 26rpx;
+  color: #fff;
 }
 .btn {
   width:20%;
