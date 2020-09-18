@@ -13,18 +13,33 @@
     </view>
     <view class="task-body">
       <view class="time"><text class="text">任务时间：{{ taskTime }}</text></view>
-      <view class="word"><text class="text">春天来了,我要把心灵放回萦绕柔肠的远方。</text></view>
+      <view class="word"><text class="text">鸡汤卡片：春天来了,我要把心灵放回萦绕柔肠的远方。</text></view>
+    </view>
+    <view class="task-footer">
+      <button class="btn">打卡</button>
+      <button class="btn">补卡</button>
+    </view>
+  </view>
+  <view class="task">
+    <view class="task-header">
+      <view class="pic"></view>
+      <text class="text">运动打卡: 19:00-20:00 </text>
+    </view>
+    <view class="task-body">
+      <view class="time"><text class="text">任务时间：{{ taskTime }}</text></view>
+      <view class="word"><text class="text">鸡汤卡片：春天来了,我要把心灵放回萦绕柔肠的远方。</text></view>
     </view>
     <view task-footer><view class="btn btn-1">补卡</view><view class="btn btn-2">打卡</view></view>
   </view>
   <view class="task">
-    <view class="btn btn-1">补卡</view>
-    <text class="text-content">读书打卡: 1h+ </text>
-    <view class="btn btn-2">打卡</view>
-  </view>
-  <view class="task">
-    <view class="btn btn-1">补卡</view>
-    <text class="text-content">运动打卡: 1h+ </text>
-    <view class="btn btn-2">打卡</view>
+    <view class="task-header">
+      <view class="pic"></view>
+      <text class="text">读书打卡: 21:00-22:00 </text>
+    </view>
+    <view class="task-body">
+      <view class="time"><text class="text">任务时间：{{ taskTime }}</text></view>
+      <view class="word"><text class="text">鸡汤卡片：春天来了,我要把心灵放回萦绕柔肠的远方。</text></view>
+    </view>
+    <view task-footer><view class="btn btn-1">补卡</view><view class="btn btn-2">打卡</view></view>
   </view>
 </view>

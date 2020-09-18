@@ -16,7 +16,7 @@
 }
 .task-header {
   background-color: #000;
-  height: 40rpx;
+  height: 30rpx;
   border-top-left-radius: 18rpx;
   border-top-right-radius: 18rpx;
   padding: 0rpx 20rpx 16rpx 20rpx;
@@ -27,12 +27,31 @@
 .task-header text {
   font-size: 26rpx;
   color: #fff;
+  padding-top: 3rpx;
+  padding-left: 20rpx;
+  display: block;
+}
+.time {
+  height: 100rpx;
+}
+.word {
+  height: 70rpx;
+  font-size: 22rpx;
+}
+.task-footer {
+  width: 100%;
+  text-align: right;
 }
 .btn {
   width:20%;
+  height: 46rpx;
   display: inline-block;
-  background-color: crimson;
+  border-width: 10rpx;
+  border-color: #000;
+  border-radius: 100rpx;
+  background-color: #fff;
   text-align: center;
+  padding-bottom: 10rpx;
 }
 
 .text-content {
